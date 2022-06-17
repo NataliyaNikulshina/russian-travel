@@ -1,0 +1,11 @@
+.cover__paragraph{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    max-width: 360px;
+    text-align: center;
+    margin: 0;
+    z-index: 2;
+}
