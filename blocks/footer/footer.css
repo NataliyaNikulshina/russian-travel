@@ -1,7 +1,20 @@
 .footer{
-    max-width: 1184px;
-    width: 100%;
+    width: calc(100% - 2 * 48px);
     display: flex;
     justify-content: space-between;
     margin: 0 auto 24px;
+}
+
+
+@media screen and (max-width: 768px){
+    .footer{
+        width: calc(100% - 2 * 24px);
+    } 
+ }
+
+@media screen and (max-width: 320px){
+    .footer{
+        width: calc(100% - 2 * 16px);
+    } 
+    
 }

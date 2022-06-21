@@ -1,7 +1,6 @@
 .place{
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 460px 1fr;
     row-gap: 48px;
     column-gap: 40px;
     padding-bottom: 80px;
@@ -10,3 +9,26 @@
 .place:last-of-type {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 1140px) {
+    .place {
+      grid-template-columns: 440px 1fr;
+      column-gap: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place {
+      grid-template-columns: 340px 1fr;
+      column-gap: 28px;
+      padding-bottom: 73px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .place {
+      grid-template-columns: 100%;
+      gap: 16px;
+      padding-bottom: 50px;
+    }
+  }

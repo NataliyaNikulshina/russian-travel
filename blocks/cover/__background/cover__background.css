@@ -2,8 +2,8 @@
     margin: 0 auto;
     padding: 0;
     text-decoration: none;
-    width: 100%;
     min-height: 740px;
+    width: 100%;
     background-image: linear-gradient(rgba(42, 44, 47,.3), rgba(42, 44, 47,.3)), url(../../../images/__background.jpg); 
     background-size: cover;
     background-position: center;
@@ -14,8 +14,14 @@
     
 }
 
-
-
 .cover__background:hover {
     background-image: linear-gradient(rgba(42, 44, 47,.8), rgba(42, 44, 47,.8)), url(../../../images/__background.jpg);
   }
+
+
+  @media screen and (max-width: 1024px){
+    .cover__background{
+        min-height: 640px;
+    } 
+ }
+

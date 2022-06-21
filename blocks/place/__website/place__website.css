@@ -1,7 +1,6 @@
 .place__website{
     margin: 0;
     padding: 0;
-    align-self: flex-end;
-    grid-row: 1;
-    grid-column: 2;
+    align-self: end;
+    
 }
