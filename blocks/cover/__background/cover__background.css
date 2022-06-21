@@ -4,30 +4,18 @@
     text-decoration: none;
     width: 100%;
     min-height: 740px;
-    background-image: url(../../../images/__background.jpg); 
+    background-image: linear-gradient(rgba(42, 44, 47,.3), rgba(42, 44, 47,.3)), url(../../../images/__background.jpg); 
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
 }
 
-.cover__background::before {
-    content: '';
-    display: block;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: opacity 0.2s ease;
-    z-index: 1;
-}
 
-.cover__background:hover::before {
-    opacity: .8;
+
+.cover__background:hover {
+    background-image: linear-gradient(rgba(42, 44, 47,.8), rgba(42, 44, 47,.8)), url(../../../images/__background.jpg);
   }

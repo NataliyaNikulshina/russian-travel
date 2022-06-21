@@ -1,10 +1,11 @@
 .intro__title{
     color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 40px;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 1.07;
-    margin: 0 auto 40;
     max-width: 690px;
 
 }
