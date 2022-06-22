@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 0;
     text-decoration: none;
-    min-height: 740px;
     width: 100%;
     background-image: linear-gradient(rgba(42, 44, 47,.3), rgba(42, 44, 47,.3)), url(../../../images/__background.jpg); 
     background-size: cover;
@@ -11,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    aspect-ratio: 3/2;
 }
 
 .cover__background:hover {
@@ -21,7 +20,7 @@
 
   @media screen and (max-width: 1024px){
     .cover__background{
-        min-height: 640px;
+        
     } 
  }
 
