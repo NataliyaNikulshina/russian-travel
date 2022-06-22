@@ -10,17 +10,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 3/2;
+    aspect-ratio: 3/1.875;
 }
 
 .cover__background:hover {
     background-image: linear-gradient(rgba(42, 44, 47,.8), rgba(42, 44, 47,.8)), url(../../../images/__background.jpg);
   }
 
-
-  @media screen and (max-width: 1024px){
-    .cover__background{
-        
-    } 
- }
 

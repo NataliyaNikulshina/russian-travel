@@ -2,4 +2,14 @@
     margin: 0;
     padding: 0;
     max-width: 484px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__text {
+        padding-left: 16px;
+        width: calc(100% - 2 * 16px);
+    }
 }
