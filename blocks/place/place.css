@@ -24,7 +24,11 @@
       column-gap: 28px;
       padding-bottom: 73px;
     }
+    .place:first-of-type .place__title {
+      max-width: 300px;
+    }
   }
+  
   
   @media screen and (max-width: 767px) {
     .place {
